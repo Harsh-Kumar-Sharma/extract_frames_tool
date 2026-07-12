@@ -9,7 +9,7 @@ A cross-platform Python 3.10+ command-line tool that streams video through OpenC
 ```bash
 sudo apt update
 sudo apt install -y python3 python3-venv python3-pip
-git clone <repository-url>
+git clone https://github.com/Harsh-Kumar-Sharma/extract_frames_tool.git
 cd video-frame-extractor
 python3 -m venv .venv
 source .venv/bin/activate
@@ -20,7 +20,7 @@ pip install -r requirements.txt
 ### Windows PowerShell
 
 ```powershell
-git clone <repository-url>
+git clone https://github.com/Harsh-Kumar-Sharma/extract_frames_tool.git
 cd video-frame-extractor
 py -m venv .venv
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
